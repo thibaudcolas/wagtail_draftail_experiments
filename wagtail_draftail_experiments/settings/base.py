@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'home',
     'search',
     'wagtail_draftail_anchors',
+    'wagtail_draftail_katex',
 
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
