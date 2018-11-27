@@ -27,7 +27,7 @@ INSTALLED_APPS = [
     'home',
     'search',
     'wagtail_draftail_anchors',
-    'wagtail_draftail_katex',
+    # 'wagtail_draftail_katex',
     'wagtail_draftail_stock',
 
     'wagtail.contrib.forms',
@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'wagtail.search',
     'wagtail.admin',
     'wagtail.core',
+
+    'draftail_katex',
 
     'modelcluster',
     'taggit',

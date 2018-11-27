@@ -1,0 +1,45 @@
+{
+  "name": "markov_draftjs",
+  "version": "0.1.1",
+  "description": "Draft.js sample content generated with Markov chains of Project Gutenberg books.",
+  "main": "./markov_draftjs/index.js",
+  "author": "Thibaud Colas",
+  "license": "MIT",
+  "homepage": "https://github.com/thibaudcolas/markov_draftjs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thibaudcolas/markov_draftjs.git"
+  },
+  "keywords": [
+    "draftjs",
+    "editor",
+    "markov",
+    "content"
+  ],
+  "bugs": {
+    "url": "https://github.com/thibaudcolas/markov_draftjs/issues"
+  },
+  "files": [
+    "markov_draftjs/content.json",
+    "markov_draftjs/index.js"
+  ],
+  "eslint": {
+    "extends": "plugin:springload/prettier"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-springload": "^2.2.0",
+    "jest": "^21.2.1",
+    "markov-chains-text": "^1.0.0",
+    "nodemon": "^1.12.1",
+    "prettier": "^1.8.1",
+    "randomcolor": "^0.5.3"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "nodemon generate.js",
+    "lint": "echo 'add JS linting'",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  }
+}

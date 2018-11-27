@@ -1,0 +1,5 @@
+include LICENSE *.rst *.txt *.md
+global-exclude __pycache__
+global-exclude *.py[co]
+include markov_draftjs/content.json
+recursive-include markov_draftjs *.py

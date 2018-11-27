@@ -1,0 +1,19 @@
+language: python
+cache:
+  pip: true
+  directories:
+  - node_modules
+matrix:
+  include:
+   - env: TOXENV=py27
+     python: 2.7
+   - env: TOXENV=py34
+     python: 3.4
+install:
+- nvm install
+- npm install
+- make init
+script:
+- make test-ci
+notifications:
+  email: false
